@@ -1,28 +1,55 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <div v-if="!loaded">
+      <MainLoading></MainLoading>
+    </div>
+
+    <div v-if="loaded">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
 }
-</script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
 }
 </style>
+
+<script>
+
+import "aos/dist/aos.css";
+import MainLoading from "./components/MainLoading";
+
+
+export default {
+  name: "App",
+  components: {
+    MainLoading,
+  },
+  data() {
+    return {
+      loaded: false,
+    };
+  },
+  mounted() {
+    setTimeout(() => {
+      this.loaded = true;
+    }, 6300);
+  },
+};
+</script>
