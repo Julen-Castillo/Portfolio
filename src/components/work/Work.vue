@@ -275,7 +275,7 @@ export default {
           this.description2 =
             " Worked to over all the interfaces of those Apps that serve as a digital product management ";
           this.description3 =
-            " Converted a web application on a desktop one adapting it to a different lenguage";
+            " Adapted a web application on a desktop one conversing it to a different lenguage";
 
           this.notSelected = "";
           this.currentYear = 2;

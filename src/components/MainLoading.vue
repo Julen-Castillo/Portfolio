@@ -55,8 +55,8 @@ svg {
   stroke: #232323;
 }
 .stroke-animation {
-  -webkit-animation: stroke-spacing 2.5s ease-in, stroke-color 6.1s linear;
-  animation: stroke-spacing 2.5s ease-in, stroke-color 6.1s linear;
+  -webkit-animation: stroke-spacing 2.5s ease-in, stroke-color 3.3s linear;
+  animation: stroke-spacing 2.5s ease-in, stroke-color 3.3s linear;
   animation-delay: 0.5s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
@@ -82,7 +82,7 @@ svg {
   transform: translate(50%, -50%);
   color: white;
   font-size: 70px;
-  animation: key-entry 2.5s forwards ease-in-out, key-color 6.1s linear;
+  animation: key-entry 2.5s forwards ease-in-out, key-color 3.3s linear;
   animation-delay: 0.2s;
 }
 

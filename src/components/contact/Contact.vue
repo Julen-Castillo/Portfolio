@@ -172,6 +172,7 @@ button {
   .map {
     background-image: url("../../../public/images/CONTACT IMAGES/mapa movil julen .jpg");
     background-color: #777777;
+    background-size: contain;
     margin: 0 auto;
   }
 

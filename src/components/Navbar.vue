@@ -183,7 +183,6 @@ hr {
   align-items: center;
 }
 .keyword::before {
-  content: "→";
   color: white;
   opacity: 0;
   transition: 0.3s ease-in-out;
@@ -233,7 +232,7 @@ export default {
     // Function to check if the menu is "Open" or "Close" when user clicks on toggle button
 
     menuOpen: function() {
-      console.log(this.layoutOpened);
+
       this.isActive = !this.isActive;
       this.layoutOpened = !this.layoutOpened;
       if (this.isActive == true) {
@@ -241,6 +240,12 @@ export default {
       } else {
         this.menuStateInput = "MENU";
       }
+          if (this.isActive) {
+        document.documentElement.style.overflow = "hidden";
+        return;
+      }
+
+      document.documentElement.style.overflow = "auto";
     },
 
     //Function to close menu when the user clicks on a menu section

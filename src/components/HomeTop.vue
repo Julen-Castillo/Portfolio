@@ -11,7 +11,6 @@
         :strings="[
           'enthusiastic',
           'imaginative',
-          'a tester',
           'creative',
           'a thinker',
           'a dreamer',
