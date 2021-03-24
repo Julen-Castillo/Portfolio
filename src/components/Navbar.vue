@@ -164,8 +164,8 @@ hr {
 /* Menu options style*/
 
 .grid-container span {
-  width: 100vw;
-  margin: 10px;
+  width: 100%;
+  margin: 10px 0px;
   color: white;
   font-weight: 600;
 }
@@ -173,6 +173,7 @@ hr {
   background-color: #e32b2c;
 }
 .grid-container div {
+  margin: 0;
   width: 100vw;
   height: 90px;
   transition: 0.3s ease-in-out;
@@ -200,8 +201,8 @@ hr {
 
   .toggle {
     font-size: 12px;
-    right: 25px;
-    top: 45px;
+    right: 10px;
+    top: 40px;
   }
   .toggle p {
     top: 5px;

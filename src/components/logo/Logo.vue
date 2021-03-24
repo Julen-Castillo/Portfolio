@@ -46,8 +46,8 @@
 .key {
   position: fixed;
   opacity: 1;
-  top: 50px;
-  left: 50px;
+  top: 40px;
+  left: 45px;
   transform: translate(-50%, -50%);
   color: #e32b2c;
   font-size: 20px;
@@ -58,8 +58,8 @@
 
 svg {
   position: fixed;
-  top: 50px;
-  left: 50px;
+  top: 40px;
+  left: 45px;
   -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(1);
   transform: translate(-50%, -50%) rotate(45deg) scale(1);
   z-index: 10;
