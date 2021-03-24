@@ -48,7 +48,7 @@
             name="email"
             type="email"
             id="validationCustom02"
-            placeholder="Your Name"
+            placeholder="Your Email"
             required
           />
         </div>
@@ -229,6 +229,7 @@ export default {
   methods: {
     sendEmail(e) {
       try {
+        alert("Are you sure you want to send this message to Julen?")
         emailjs.sendForm(
           "service_6egs44j",
           "template_sjo295w",
