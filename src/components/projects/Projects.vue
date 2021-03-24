@@ -79,10 +79,10 @@
           </router-link>
         </div>
         <div
-          class="text-container d-flex justify-content-center flex-column col-md-6 col-12 align-items-end"
+          class="text-container d-flex justify-content-center flex-column col-md-6 col-12 align-items-md-end align-items-start"
         >
           <div
-            class="title-container d-flex justify-content-end align-items-center"
+            class="title-container d-flex justify-content-md-end justify-content-start align-items-center"
           >
             <h3>ROAD ASSISTANCE</h3>
           </div>

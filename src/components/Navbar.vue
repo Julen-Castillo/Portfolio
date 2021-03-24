@@ -196,14 +196,12 @@ hr {
   word-wrap: unset;
 }
 
-
 @media (max-width: 599px) {
-
   /* Navbar toggle style */
 
   .toggle {
     font-size: 12px;
-    right: 30px;
+    right: 60px;
     top: 45px;
   }
   .toggle p {
@@ -232,7 +230,6 @@ export default {
   },
 
   methods: {
-
     // Function to check if the menu is "Open" or "Close" when user clicks on toggle button
 
     menuOpen: function() {
@@ -245,9 +242,9 @@ export default {
         this.menuStateInput = "MENU";
       }
     },
-    
+
     //Function to close menu when the user clicks on a menu section
-    
+
     closeMenu: function() {
       console.log(this.layoutOpened);
       this.layoutOpened = !this.layoutOpened;

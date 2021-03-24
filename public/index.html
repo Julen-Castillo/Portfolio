@@ -28,7 +28,7 @@
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"
     ></script>
-  
+
     <script src="https://unpkg.com/vue-observe-visibility/dist/vue-observe-visibility.min.js"></script>
     <link
       rel="stylesheet"
@@ -39,7 +39,6 @@
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
       crossorigin="anonymous"
     ></script>
-
 
     <title><%= htmlWebpackPlugin.options.title %></title>
     <link rel="stylesheet" href="vue-typed-js/dist/vue-typed-js.css" />
@@ -60,9 +59,32 @@
         properly without JavaScript enabled. Please enable it to
         continue.</strong
       >
+
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+      <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+      <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+
+      <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+          apiKey: "AIzaSyDAWa3lLKvOIbRcjEKb_4Z6BCELC9uTFHI",
+          authDomain: "portfolio-a5c80.firebaseapp.com",
+          projectId: "portfolio-a5c80",
+          storageBucket: "portfolio-a5c80.appspot.com",
+          messagingSenderId: "212558283452",
+          appId: "1:212558283452:web:510503f09ffbb8046e46b9",
+          measurementId: "G-F11L5FC2PS",
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
     </noscript>
-    <div id="app">
-    </div>
+    <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
 </html>
