@@ -108,9 +108,10 @@ img {
   animation: transition 1s 1 forwards;
   opacity: 0;
   max-width: 100vw;
-  width: 80vw;
-  margin: 0 auto;
-  padding: 8% 0;
+  width: 100vw;
+  margin: auto;
+  padding: 8% 10%;
+  overflow: hidden;
 }
 
 /* Background animation */
@@ -140,7 +141,7 @@ img {
 .name-div {
   font-weight: 600;
   letter-spacing: 3px;
-  width: 100vw;
+  width: 100%;
   color: #e32b2c;
 }
 .typing {

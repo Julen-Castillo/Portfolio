@@ -79,7 +79,7 @@
           </router-link>
         </div>
         <div
-          class="text-container d-flex justify-content-center flex-column col-md-6 col-12 align-items-md-end align-items-start"
+          class="text-container d-flex justify-content-center flex-column col-md-6 col-12 align-items-sm-end align-items-start"
         >
           <div
             class="title-container d-flex justify-content-md-end justify-content-start align-items-center"

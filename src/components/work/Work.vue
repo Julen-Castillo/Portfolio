@@ -125,7 +125,8 @@ strong {
   position: absolute;
   transform: translate(0%, -45%);
   transition: 0.2s ease-in-out;
-  z-index: 200;
+  z-index: 1;
+  
 }
 .circle::after {
   color: #e32b2c;
@@ -212,7 +213,7 @@ strong {
     font-size: 20px !important;
   }
   .notSelected {
-    font-size: 25px;
+    font-size: 20px;
   }
   .role {
     font-size: 18px;

@@ -5,6 +5,7 @@
     </div>
 
     <div v-if="loaded">
+      
       <router-view></router-view>
     </div>
   </div>
@@ -20,6 +21,7 @@
 * {
   font-family: "Montserrat", sans-serif;
   padding: 0;
+
 }
 
 .visible {

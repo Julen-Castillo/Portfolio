@@ -20,7 +20,7 @@
         <span class="d-flex align-items-center justify-content-center">
           MENU
         </span>
-        <hr />
+        <hr class="d-sm-block d-none" />
         <div class="row fila1" v-on:click="menuOpen()">
           <anchor-router-link
             :to="{ name: 'Home', hash: '#home' }"
@@ -59,7 +59,7 @@
         <div class="row fila6" v-on:click="menuOpen()">
           <a href="#" class="col-md-12 col-sm-12 keyword">RESUME</a>
         </div>
-        <hr />
+        <hr class="d-sm-block d-none"  />
       </div>
     </div>
   </div>
@@ -99,7 +99,7 @@ hr {
   top: 0;
   transition: 0.5s ease-in-out;
   background: #22262a;
-  opacity: 0.99;
+  opacity: 1;
   z-index: 2;
 }
 
@@ -200,7 +200,7 @@ hr {
 
   .toggle {
     font-size: 12px;
-    right: 60px;
+    right: 25px;
     top: 45px;
   }
   .toggle p {
@@ -240,12 +240,6 @@ export default {
       } else {
         this.menuStateInput = "MENU";
       }
-          if (this.isActive) {
-        document.documentElement.style.overflow = "hidden";
-        return;
-      }
-
-      document.documentElement.style.overflow = "auto";
     },
 
     //Function to close menu when the user clicks on a menu section

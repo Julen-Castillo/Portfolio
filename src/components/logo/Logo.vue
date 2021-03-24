@@ -41,9 +41,6 @@
 .animate-container:hover {
   cursor: pointer;
 }
-.animate-container {
-  z-index: 10000;
-}
 
 /* Center key style */
 .key {
@@ -54,6 +51,7 @@
   transform: translate(-50%, -50%);
   color: #e32b2c;
   font-size: 20px;
+  z-index: 10;
 }
 
 /* Svg  */
@@ -64,6 +62,7 @@ svg {
   left: 50px;
   -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(1);
   transform: translate(-50%, -50%) rotate(45deg) scale(1);
+  z-index: 10;
 }
 .stroke-still {
   stroke: #e32b2c;
