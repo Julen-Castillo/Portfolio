@@ -58,7 +58,6 @@ strong {
 
 /* Main style */
 .main-container {
-  max-width: 100vw;
   margin-top: 20px;
   padding: 0 10%;
 }
