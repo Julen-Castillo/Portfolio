@@ -62,20 +62,7 @@ strong {
   margin-top: 20px;
   padding: 0 10%;
 }
-.background-circle {
-  width: 300px;
-  height: 300px;
-  border-radius: 100%;
-  background-color: #e32b2c;
-  position: absolute;
-  opacity: 1;
-  top: 50%;
-  opacity: 0.5;
-  left: -55%;
-  z-index: 2;
-  animation: circle-animation 20s 1s infinite;
-  animation-direction: alternate;
-}
+
 
 /* Main title style */
 
@@ -228,35 +215,7 @@ strong {
 
 /* Animations */
 
-@keyframes circle-animation {
-  0% {
-    color: #df4b4b;
-    left: -55%;
-    top: 50%;
-    display: block;
-  }
 
-  25%{
-    left: 15%;
-    top: 20%;
-  }
-  50% {
-    left: 55%;
-    top: 60%;
-    transform: scale(0.5);
-  }
-  75%{
-    left: 95%;
-    top: 15%;
-  }
-  100% {
-    left: 145%;
-    top: 70%;
-    color: #dd0505;
-    display: none;
-    transform: scale(1.2);
-  }
-}
 
 @keyframes bounce {
   0%,

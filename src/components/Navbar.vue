@@ -72,6 +72,8 @@
 <style scoped>
 /* General Style */
 
+
+
 a {
   text-decoration: none;
   color: #f0f0f0;
@@ -97,8 +99,8 @@ hr {
 }
 
 .layoutOpened {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: fixed;
   top: 0;
   transition: 0.5s ease-in-out;

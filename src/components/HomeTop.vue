@@ -2,7 +2,7 @@
   <div
     class="row main-container d-flex flex-row content-wrapper justify-content-around"
   >
-    <div class="d-none d-md-block background-circle"></div>
+    <div class="d-none d-lg-block background-circle"></div>
 
     <div class=" text-container col-md-7 col-sm-12 order-2 order-md-1">
       <div class="name-div d-flex">JULEN CASTILLO</div>
@@ -69,7 +69,6 @@ div {
 }
 strong {
   color: #e32b2c;
-  
 }
 a {
   text-decoration: none;
@@ -109,9 +108,10 @@ img {
   animation: transition 1s 1 forwards;
   opacity: 0;
   max-width: 100vw;
-  width: 100vw;
+  width: 100%;
   margin: auto;
   padding: 8% 10%;
+  position: relative;
   overflow: hidden;
 }
 
@@ -123,12 +123,11 @@ img {
   border-radius: 100%;
   background-color: #e32b2c;
   position: absolute;
-  opacity: 1;
+  left: -30%;
   top: 50%;
   opacity: 0.5;
-  left: -30%;
   z-index: -1;
-  animation: circle-animation 20s 1s infinite;
+  animation: circle-animation 15s 1s infinite alternate;
 }
 
 /* Main title + autotyping style */
@@ -193,7 +192,7 @@ img {
     font-size: 15px;
   }
 
-  .main-container{
+  .main-container {
     padding: 2px;
   }
 
@@ -214,6 +213,13 @@ img {
   }
 }
 
+@media (max-device-width: 1260px) {
+  .background-circle {
+    width: 250px;
+    height: 250px;
+  }
+}
+
 @media (min-device-width: 960px) {
   h1 {
     font-size: 40px !important;
@@ -231,7 +237,6 @@ img {
   h2 {
     font-size: 25px;
   }
-
   /* Description style */
 
   .description-container span {
@@ -294,21 +299,16 @@ img {
 }
 @keyframes circle-animation {
   0% {
-    color: #df4b4b;
-    left: -25%;
+    left: -30%;
     top: 50%;
-    display: block;
   }
-  40% {
-    top: 10%;
-    transform: scale(0.5);
+  50%{
+    width: 250px;
+    height: 250px;
   }
   100% {
     left: 110%;
-    top: 50%;
-    color: #dd0505;
-    display: none;
-    transform: scale(1.2);
+    top: 0%;
   }
 }
 @keyframes image-deployment {
