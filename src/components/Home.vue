@@ -7,7 +7,7 @@
     <HomeTop id="home" />
     <AboutMe id="aboutme"></AboutMe>
     <Projects id="projects"></Projects>
-    <Work></Work>
+    <Work id="work"></Work>
     <ContactLink></ContactLink>
     <Footer></Footer>
   </div>

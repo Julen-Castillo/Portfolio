@@ -8,15 +8,15 @@
       <div class="text bold-text col-md-5 col-12">
         <span
           >Im a web Developer in love with the design, specialized in frontend
-          with a good performance in backend too, i enjoy creating my own
+          with a good performance in backend too, I enjoy creating my own
           website whom live on the web
         </span>
         <span class="little-text"
-          >I have experience building end-to-end applications, in 2019 i joined
+          >I have experience building end-to-end applications, in 2019 I joined
           ICARUS developer team and worked on a PLM Web and Desktop
-          applications, i learned a lot of technologies and ways-to-work in
-          coperation with a team, in 2020 i discovered VueJs and until this day
-          im using in it in all my projects.
+          applications, I learned a lot of technologies and ways-to-work in
+          coperation with a team, in 2020 I discovered VueJs and until this day
+          Im using in it in all my projects.
         </span>
       </div>
 
@@ -24,6 +24,7 @@
 
       <CircleSkillContainer data-aos="fade-up"></CircleSkillContainer>
       <div class="responsive-layout-container row" data-aos="fade-up">
+        <div class="d-none d-md-block background-circle"></div>
         <div class="responsive-title col-md-12">
           <span class="ghost-title">ALL DEVICES LAYOUTS</span>
           <h1>FULL RESPONSIVE <strong> WEB </strong>DESIGNS</h1>
@@ -61,6 +62,21 @@ strong {
   margin-top: 20px;
   padding: 0 10%;
 }
+.background-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-color: #e32b2c;
+  position: absolute;
+  opacity: 1;
+  top: 50%;
+  opacity: 0.5;
+  left: -55%;
+  z-index: 2;
+  animation: circle-animation 20s 1s infinite;
+  animation-direction: alternate;
+}
+
 /* Main title style */
 
 .title {
@@ -121,7 +137,7 @@ strong {
 .device:hover {
   transform: translate(-50%, -50%) rotate(1deg) skewY(-1deg) skewX(-1deg)
     scale(1.1);
-  z-index: 3;
+  z-index: 4;
 }
 .device::after {
   content: "";
@@ -142,7 +158,9 @@ strong {
   position: absolute;
   top: 30%;
   left: 50%;
+  background-color: #F0F0F0;
   transform: translate(-50%, -50%) rotate(3deg) skewY(-3deg) skewX(-3deg);
+  z-index: 1;
 }
 .tablet-container {
   width: 900px;
@@ -152,7 +170,9 @@ strong {
   position: absolute;
   top: 60%;
   left: 25%;
+  background-color: #F0F0F0;
   transform: translate(-50%, -50%) rotate(3deg) skewY(-3deg) skewX(-3deg);
+  z-index: 3;
 }
 .mobile-container {
   width: 400px;
@@ -162,7 +182,9 @@ strong {
   position: absolute;
   top: 60%;
   left: 85%;
+  background-color: #F0F0F0;
   transform: translate(-50%, -50%) rotate(3deg) skewY(-3deg) skewX(-3deg);
+  z-index: 3;
 }
 .techno-title {
   font-size: 18px;
@@ -205,6 +227,36 @@ strong {
 }
 
 /* Animations */
+
+@keyframes circle-animation {
+  0% {
+    color: #df4b4b;
+    left: -55%;
+    top: 50%;
+    display: block;
+  }
+
+  25%{
+    left: 15%;
+    top: 20%;
+  }
+  50% {
+    left: 55%;
+    top: 60%;
+    transform: scale(0.5);
+  }
+  75%{
+    left: 95%;
+    top: 15%;
+  }
+  100% {
+    left: 145%;
+    top: 70%;
+    color: #dd0505;
+    display: none;
+    transform: scale(1.2);
+  }
+}
 
 @keyframes bounce {
   0%,
@@ -252,9 +304,12 @@ strong {
     overflow: hidden;
     transition: all 0.5s ease-in;
   }
+  .main-container{
+     padding: 2px;
+  }
 
   /* Responsive style */
-  
+
   .responsive-title,
   .title {
     padding: 0 10%;
@@ -294,7 +349,7 @@ strong {
 
 <script>
 // import Carrousel from '../components/Carrousel'
-import Skillleveltable from "./Skillleveltable"
+import Skillleveltable from "./Skillleveltable";
 import CircleSkillContainer from "./CircleSkillContainer";
 
 export default {

@@ -29,7 +29,7 @@
           <span class="description-span order-2">
             A <strong class="heavy">creative</strong> minimalist designer in
             love with <strong class="heavy">Web design</strong> and
-            <strong class="heavy">UI</strong>, im in constant desire to acquire
+            <strong class="heavy">UI</strong>, Im in constant desire to acquire
             <strong class="heavy">knowledge </strong> and ready to be open to
             <strong class="heavy">new ideas </strong> and
             <strong class="heavy"> technology </strong> wich can solve real life
@@ -69,6 +69,7 @@ div {
 }
 strong {
   color: #e32b2c;
+  
 }
 a {
   text-decoration: none;
@@ -162,7 +163,6 @@ img {
   font-size: 25px;
 }
 .heavy {
-  padding: 0 5px;
   color: #e32b2c;
   font-size: 26px;
 }
@@ -191,6 +191,10 @@ img {
   }
   h2 {
     font-size: 15px;
+  }
+
+  .main-container{
+    padding: 2px;
   }
 
   /* Description style */
@@ -301,7 +305,7 @@ img {
   }
   100% {
     left: 110%;
-    top: 70%;
+    top: 50%;
     color: #dd0505;
     display: none;
     transform: scale(1.2);

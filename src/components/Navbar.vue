@@ -45,7 +45,11 @@
         </div>
 
         <div class="row fila4" v-on:click="menuOpen()">
-          <a href="#" class="col-md-12 col-sm-12 keyword">WORK</a>
+          <anchor-router-link
+            :to="{ name: 'Home', hash: '#work' }"
+            class="aboutme col-md-12 col-sm-12 keyword"
+            >WORK</anchor-router-link
+          >
         </div>
 
         <div class="row fila5" v-on:click="menuOpen()">
@@ -59,7 +63,7 @@
         <div class="row fila6" v-on:click="menuOpen()">
           <a href="#" class="col-md-12 col-sm-12 keyword">RESUME</a>
         </div>
-        <hr class="d-sm-block d-none"  />
+        <hr class="d-sm-block d-none" />
       </div>
     </div>
   </div>
@@ -233,7 +237,6 @@ export default {
     // Function to check if the menu is "Open" or "Close" when user clicks on toggle button
 
     menuOpen: function() {
-
       this.isActive = !this.isActive;
       this.layoutOpened = !this.layoutOpened;
       if (this.isActive == true) {

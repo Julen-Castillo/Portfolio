@@ -181,7 +181,7 @@ i:hover .proceso {
   visibility: visible;
 }
 
-h3{
+h3 {
   font-weight: 600;
 }
 strong {
@@ -322,10 +322,12 @@ strong {
   display: block;
 }
 @media (max-width: 599px) {
-h3{
-  font-size: 17px;
-}
-
+  .project-image {
+    min-height: 150px;
+  }
+  h3 {
+    font-size: 17px;
+  }
   .description-container {
     width: 100%;
     font-size: 14px;
@@ -359,7 +361,10 @@ h3{
   .description-project-4 {
     text-align: justify;
   }
-
+  .main{
+     padding: 2px;
+     width: 95vw;
+  }
 }
 
 @media (max-width: 1366px) {

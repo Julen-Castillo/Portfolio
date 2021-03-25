@@ -126,7 +126,6 @@ strong {
   transform: translate(0%, -45%);
   transition: 0.2s ease-in-out;
   z-index: 1;
-  
 }
 .circle::after {
   color: #e32b2c;
@@ -221,6 +220,14 @@ strong {
   .company {
     font-size: 18px;
   }
+  .main {
+    padding: 2px;
+  }
+
+  .life-time-container {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 1366px) {
@@ -236,14 +243,16 @@ export default {
 
   data() {
     return {
-      currentYear: 0,
-      role: "",
-      year: "",
-      company: "",
-      description1: "",
-      description2: "",
-      description3: "",
-      notSelected: "SELECT A YEAR",
+      currentYear: 1,
+      role: "Tecnic",
+      year: "2017 - 2018",
+      company: "PCBOX",
+      description1:
+        "Fixed multiple software and hardware issues for every devices",
+      description2:
+        "Improved my skills seen by the customer attending by phone and face to face",
+      description3: "Mounted servers to small and medium companies",
+      notSelected: "",
 
       showWork: false,
     };
@@ -294,7 +303,7 @@ export default {
           this.currentYear = 3;
           break;
         default:
-          this.currentYear = 0;
+          this.currentYear = 1;
       }
     },
 
