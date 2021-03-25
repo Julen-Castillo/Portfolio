@@ -36,6 +36,7 @@
 .animate-container {
   opacity: 0;
   width: 100vw;
+  overflow: hidden;
   height: 100vh;
   background: #282828;
   animation: layout-entry 0.8s forwards ease-in-out,
