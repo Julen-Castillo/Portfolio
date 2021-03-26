@@ -63,7 +63,6 @@ strong {
   padding: 0 10%;
 }
 
-
 /* Main title style */
 
 .title {

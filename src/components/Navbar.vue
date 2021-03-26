@@ -61,7 +61,7 @@
         </div>
 
         <div class="row fila6" v-on:click="menuOpen()">
-          <a href="#" class="col-md-12 col-sm-12 keyword">RESUME</a>
+          <a href="#" @click="openResume()">RESUME</a>
         </div>
         <hr class="d-sm-block d-none" />
       </div>
@@ -71,8 +71,6 @@
 
 <style scoped>
 /* General Style */
-
-
 
 a {
   text-decoration: none;
@@ -220,6 +218,7 @@ hr {
 <script>
 import AnchorRouterLink from "vue-anchor-router-link";
 
+
 export default {
   name: "Navbar",
 
@@ -254,6 +253,13 @@ export default {
       console.log(this.layoutOpened);
       this.layoutOpened = !this.layoutOpened;
       console.log(this.layoutOpened);
+    },
+    openResume() {
+    
+     window.open(
+        "https://drive.google.com/file/d/1SF65VTkGcvr3PzBWWBP7oIvScBLGJNKc/view?usp=sharing",
+        "_blank"
+      );
     },
   },
 };
