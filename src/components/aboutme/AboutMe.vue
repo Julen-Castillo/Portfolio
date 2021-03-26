@@ -139,7 +139,7 @@ strong {
 .computer-container {
   width: 1300px;
   height: 600px;
-  background-image: url("../../../public/images/laptopresponsive.png");
+  background-image: url("../../../public/images/RESPONSIVE LAYOUT/laptopresponsive.png");
   background-size: contain;
   position: absolute;
   top: 30%;
@@ -151,7 +151,7 @@ strong {
 .tablet-container {
   width: 900px;
   height: 550px;
-  background-image: url("../../../public/images/tabletresponsive.png");
+  background-image: url("../../../public/images/RESPONSIVE LAYOUT/tabletresponsive.png");
   background-size: cover;
   position: absolute;
   top: 60%;
@@ -163,7 +163,7 @@ strong {
 .mobile-container {
   width: 400px;
   height: 550px;
-  background-image: url("../../../public/images/mobileresponsive.png");
+  background-image: url("../../../public/images/RESPONSIVE LAYOUT/mobileresponsive.png");
   background-size: cover;
   position: absolute;
   top: 60%;
