@@ -47,8 +47,8 @@
         <router-link :to="{ name: 'Contact' }">Contact me </router-link>
       </div>
     </div>
-    <div class="image-container order-1 order-md-2 col-md-5">
-      <div class="image d-md-block order-4" max-width="600px">
+    <div class="image-container order-1 order-md-2 col-md-5 col-sm-12">
+      <div class="image d-md-block order-4 d-flex justify-content-center align-items-center" max-width="600px">
         <img src="../../public/images/model.png" class="img-fluid" />
       </div>
     </div>
@@ -101,7 +101,9 @@ img {
   );
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
+  width: 450px;
 }
+
 /* Main style */
 
 .main-container {
@@ -196,6 +198,15 @@ img {
     padding: 2px;
   }
 
+  .description-container{
+    font-size: 15px;
+  }
+
+  img{
+    
+    max-width: 300px;
+  }
+
   /* Description style */
 
   .description-span {
@@ -217,6 +228,13 @@ img {
   .background-circle {
     width: 250px;
     height: 250px;
+  }
+   .description-span {
+    font-size: 20px;
+  }
+  strong,
+  .heavy {
+    font-size: 20px !important;
   }
 }
 
