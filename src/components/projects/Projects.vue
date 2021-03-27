@@ -36,9 +36,9 @@
             <h3>ICARUS PLM</h3>
           </div>
           <div class="description-container description-project-1">
-            a Product Lifecycle Management (PLM) application used to manage
-            various aspects of introducing new and concluding old prodcuts in
-            their assortment, i designed some of the interfaces focus in a good
+            A Product Lifecycle Management (PLM) application used to manage
+            various aspects of introducing new and concluding old products in
+            their assortment, I designed some of the interfaces focused in a good
             user experience adapted to the new standards
           </div>
           <div class="technologies-container">
@@ -135,21 +135,20 @@
             <h3>MANTICORA VINTAGE</h3>
           </div>
           <div class="description-container description-project-1">
-            An online shop web application wich contains a different catalogues
+            An online shop web application which contains a different catalogues
             of every kind of vintage clothes separated in various sections.
           </div>
           <div class="technologies-container">
             <span class="techno">Javascript</span>
-            <span class="techno">Polymer</span> <span class="techno">CSS</span
-            ><span class="techno">C#</span>
+            <span class="techno">Vue</span> <span class="techno">CSS</span
+            ><span class="techno">SASS</span>
+            <span class="techno">Laravel</span>
+            <span class="techno">Firebase</span>
             <hr />
             <a href="http://www.icarusplm.com/" target="_blank"
               ><i class="fas fa-globe"></i
             ></a>
-            <i class="fas fa-lock locked"
-              ><div class="proceso">
-                for terms of privacy, i cant share images of this project
-              </div></i
+
             >
           </div>
         </div>
@@ -361,9 +360,9 @@ strong {
   .description-project-4 {
     text-align: justify;
   }
-  .main{
-     padding: 2px;
-     width: 95vw;
+  .main {
+    padding: 2px;
+    width: 95vw;
   }
 }
 

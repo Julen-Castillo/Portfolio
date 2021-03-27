@@ -76,7 +76,7 @@ svg {
 /* Svg key animation */
 
 .key {
-  position: absolute;
+  position: fixed;
   opacity: 0;
   top: 50%;
   right: 50%;

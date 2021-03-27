@@ -14,7 +14,7 @@
       </div>
       <div class="availability col-md-4">
         <strong>Availability </strong> — <br />
-        Im always working on my personal projects but Im free at 100% for you so
+        I am always working on my personal projects but I am free at 100% for you so
         I'll be happy to discuss new opportunities. Let’s get in touch!
       </div>
       <div class="social-media col-md-3 ">

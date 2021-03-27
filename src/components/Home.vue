@@ -8,6 +8,7 @@
     <AboutMe id="aboutme"></AboutMe>
     <Projects id="projects"></Projects>
     <Work id="work"></Work>
+    <Recommendation></Recommendation>
     <ContactLink></ContactLink>
     <Footer></Footer>
   </div>
@@ -24,6 +25,7 @@ import Navbar from "./Navbar";
 import AboutMe from "./aboutme/AboutMe";
 import Projects from "./projects/Projects";
 import Work from "./work/Work";
+import Recommendation from "./recommendation/Recomendation"
 import ContactLink from "./contact/ContactLink";
 import Footer from "./footer/Footer";
 
@@ -39,6 +41,7 @@ export default {
     AboutMe,
     Projects,
     Work,
+    Recommendation,
     ContactLink,
     Footer,
   },

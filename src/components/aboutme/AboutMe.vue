@@ -7,7 +7,7 @@
     <div class="text-container row" data-aos="fade-up">
       <div class="text bold-text col-md-5 col-12">
         <span
-          >Im a web Developer in love with the design, specialized in frontend
+          >I am a web Developer in love with the design, specialized in frontend
           with a good performance in backend too, I enjoy creating my own
           website whom live on the web
         </span>
@@ -15,8 +15,8 @@
           >I have experience building end-to-end applications, in 2019 I joined
           ICARUS developer team and worked on a PLM Web and Desktop
           applications, I learned a lot of technologies and ways-to-work in
-          coperation with a team, in 2020 I discovered VueJs and until this day
-          Im using in it in all my projects.
+          coperation with a team. In 2020 I discovered VueJs and until this day
+          I am using in it in all my projects.
         </span>
       </div>
 
