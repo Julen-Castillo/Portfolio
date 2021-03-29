@@ -36,10 +36,13 @@
             <h3>ICARUS PLM</h3>
           </div>
           <div class="description-container description-project-1">
-            A Product Lifecycle Management (PLM) application used to manage
+            <!-- A Product Lifecycle Management (PLM) application used to manage
             various aspects of introducing new and concluding old products in
             their assortment, I designed some of the interfaces focused in a good
-            user experience adapted to the new standards
+            user experience adapted to the new standards -->
+            Product Life Cycle Management (PLM) application that introduces
+            products into the company's inventory. The design aims to provide a
+            user friendly interface that enhances the experience
           </div>
           <div class="technologies-container">
             <span class="techno">Javascript</span>
@@ -148,8 +151,6 @@
             <a href="http://www.icarusplm.com/" target="_blank"
               ><i class="fas fa-globe"></i
             ></a>
-
-            >
           </div>
         </div>
       </div>

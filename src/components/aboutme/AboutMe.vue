@@ -7,16 +7,18 @@
     <div class="text-container row" data-aos="fade-up">
       <div class="text bold-text col-md-5 col-12">
         <span
-          >I am a web Developer in love with the design, specialized in frontend
-          with a good performance in backend too, I enjoy creating my own
-          website whom live on the web
+          >As a person in love with design I specialize in frontend development,
+          yet keeping a found understanding on backend technologies. I enjoy
+          using code to create things that could be helpful to anyone in the
+          worldwide web, making their experience more pleasant and satifying.
         </span>
         <span class="little-text"
-          >I have experience building end-to-end applications, in 2019 I joined
-          ICARUS developer team and worked on a PLM Web and Desktop
-          applications, I learned a lot of technologies and ways-to-work in
-          coperation with a team. In 2020 I discovered VueJs and until this day
-          I am using in it in all my projects.
+          >In 2019 I joined ICARUS developer team to work on a PLM website and
+          desktop application. During my time in this consolidated machinery
+          company, I learnt multiple technologies, get to know new development
+          methodologies and managed to succesfully bring new ideas to the team.
+          Since I discovered VueJS in 2020, I have implemented it in my projects
+          up until now.
         </span>
       </div>
 
@@ -144,7 +146,7 @@ strong {
   position: absolute;
   top: 30%;
   left: 50%;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   transform: translate(-50%, -50%) rotate(3deg) skewY(-3deg) skewX(-3deg);
   z-index: 1;
 }
@@ -156,7 +158,7 @@ strong {
   position: absolute;
   top: 60%;
   left: 25%;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   transform: translate(-50%, -50%) rotate(3deg) skewY(-3deg) skewX(-3deg);
   z-index: 3;
 }
@@ -168,7 +170,7 @@ strong {
   position: absolute;
   top: 60%;
   left: 85%;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   transform: translate(-50%, -50%) rotate(3deg) skewY(-3deg) skewX(-3deg);
   z-index: 3;
 }
@@ -213,8 +215,6 @@ strong {
 }
 
 /* Animations */
-
-
 
 @keyframes bounce {
   0%,
@@ -262,8 +262,8 @@ strong {
     overflow: hidden;
     transition: all 0.5s ease-in;
   }
-  .main-container{
-     padding: 2px;
+  .main-container {
+    padding: 2px;
   }
 
   /* Responsive style */
