@@ -154,6 +154,49 @@
           </div>
         </div>
       </div>
+      <div class="project project-4 col-12 row" data-aos="fade-up">
+        <div
+          class="image-container d-flex justify-content-center align-items-center col-sm- col-md-6 col-12 order-md-2"
+        >
+          <router-link to="/Project4" class=" project-image project-image-4">
+            <div
+              class="overlay d-flex justify-content-around align-items-center flex-column"
+            >
+              <div
+                class="text d-flex justify-content-center flex-column align-items-center"
+              >
+                <div class="title">CASTLECHAT</div>
+                <div class="role">Full Stack</div>
+              </div>
+              <div class="button">READ MORE</div>
+            </div>
+          </router-link>
+        </div>
+        <div
+          class="text-container d-flex justify-content-center flex-column col-md-6 col-12"
+        >
+          <div
+            class="title-container d-flex justify-content-start align-items-center"
+          >
+            <h3>CASTLECHAT</h3>
+          </div>
+          <div class="description-container description-project-1">
+            An online chat application which allows you to chat with your
+            friends in real time
+          </div>
+          <div class="technologies-container">
+            <span class="techno">Javascript</span>
+            <span class="techno">PHP</span>
+            <span class="techno">CSS</span>
+            <span class="techno">MYSQL</span>
+            <span class="techno">XAMP</span>
+            <hr />
+            <router-link to="/Project4">
+              <i class="fas fa-globe"></i
+            ></router-link>
+          </div>
+        </div>
+      </div>
       <!--<div class="project project-3 col-md-12"></div>-->
     </div>
   </div>
@@ -257,6 +300,10 @@ strong {
 
 .project-image-3 {
   border: 1px solid rgb(197, 197, 197);
+}
+
+.project-image-4 {
+  background-image: url("../../../public/images/CATLECHAT/chat.png");
 }
 
 /* Image hover overlay style */
