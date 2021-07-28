@@ -9,7 +9,7 @@
         </div>
         <div class="email col-md-12">
           <strong> Email: </strong> julencastillo98@gmail.com
-          <strong> Phone:</strong> +34-666522470
+          <strong> Phone:</strong> +34-657950931
         </div>
       </div>
       <div class="availability col-md-4">
