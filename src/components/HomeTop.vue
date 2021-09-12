@@ -29,7 +29,7 @@
           <span class="description-span order-2">
             A <strong class="heavy">creative</strong> minimalist designer in
             love with <strong class="heavy">Web design</strong> and
-            <strong class="heavy">UI</strong>, I am in constant desire to acquire
+            <strong class="heavy">UI</strong>, I am in constant desire to adquire
             <strong class="heavy">knowledge </strong> and ready to be open to
             <strong class="heavy">new ideas </strong> and
             <strong class="heavy"> technology </strong> which can solve real life
